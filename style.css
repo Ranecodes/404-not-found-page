@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+:root {
+    --gray-one:  #333333;
+    --gray-two: #4F4F4F;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Mobile View*/
+.container {
+    width: 1200px;
+    max-width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+}
+.container h3 {
+    font-family: "Inconsolata", sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 24px;
+    color: var(--gray-one);
+}
+
+.flex-container {
+    font-family: "Space Mono", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex-container div img {
+    width: 286.83px;
+    height: 238px;
+    margin-top: 64px;
+    margin-bottom: 77.65px;
+}
+.main-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 24px;
+    margin-bottom: 30px;
+    color: var(--gray-one);
+}
+.main-content p {
+    color: var(--gray-two);
+    font-weight: 400;
+    margin-left: 23px;
+}
+.main-content button {
+    background: var(--gray-one);
+    color: white;
+    margin-top: 66px;
+    margin-left: 24px;
+    margin-bottom: 114px;
+    padding: 24px 43px 23px 43px;
+}
+footer{
+    font-family: "Space Mono", sans-serif;
+}
+.link a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/*Desktop View*/
+@media (min-width: 769px) {
+    .container {
+        width: 1200px;
+        max-width: 100%;
+        min-height: 400px;
+    }
+    .container h3 {
+        font-family: "Inconsolata", sans-serif;
+        font-size: 24px;
+        margin-top: 40px;
+        margin-left: 77px;
+        color: var(--gray-one);
+    }
+    .flex-container {
+        font-family: "Space Mono", sans-serif;
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-container div img {
+        width: 539.22px;
+        height: 447.43px;
+        margin-top: 200px;
+        margin-left: 77px;
+    }
+    .main-content {
+        margin-top: 160px;
+        margin-left: 20px;
+    }
+    .main-content h1{
+        font-weight: bold;
+        color: var(--gray-one);
+    }
+    .main-content p {
+        margin-right: 230px ;
+    }
+    footer{
+        font-family: "Space Mono", sans-serif;
+        margin-top: 250px;
+    }
+    .link a {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+}
