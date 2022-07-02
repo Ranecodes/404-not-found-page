@@ -59,6 +59,7 @@
     margin-left: 24px;
     margin-bottom: 114px;
     padding: 24px 43px 23px 43px;
+    cursor: pointer;
 }
 footer{
     font-family: "Space Mono", sans-serif;
